@@ -7,7 +7,11 @@ def second_challenge
   }
 
   #code your solution here!
-  
+  a = []
+  groceries.each do |category, items|
+    a.concat(items)
+  end 
+  groceries
   
 
 end
